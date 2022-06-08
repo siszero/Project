@@ -17,10 +17,10 @@
 - sensor3 하나만 검정색을 인식할 때와 sensor2와 sensor3이 동시에 검정색을 인식할 때 왼쪽 바퀴를 오른쪽 바퀴보다 빠르게 돌리게 하여 다시 중심을 잡을 수 있도록 한다.
 
 ### 4. 결과물
-![image01](https://user-images.githubusercontent.com/64197543/172637184-c2f9cd5f-fe94-4e2d-ab2b-80caefb9fce6.png)
-![image02](https://user-images.githubusercontent.com/64197543/172637198-bd20eb06-3089-4ee1-85e1-0735d0848076.png)
-![image03](https://user-images.githubusercontent.com/64197543/172637203-05ff63c7-ffaa-4027-8396-5de286ef29f7.png)
-![image04](https://user-images.githubusercontent.com/64197543/172637208-b7f21acf-46d3-48b3-a923-1fbbf6246893.png)
+<img src="https://user-images.githubusercontent.com/64197543/172637184-c2f9cd5f-fe94-4e2d-ab2b-80caefb9fce6.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/64197543/172637198-bd20eb06-3089-4ee1-85e1-0735d0848076.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/64197543/172637203-05ff63c7-ffaa-4027-8396-5de286ef29f7.png" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/64197543/172637208-b7f21acf-46d3-48b3-a923-1fbbf6246893.png" width="200" height="400"/>
 
 
 ### 5. 영상
@@ -34,4 +34,4 @@
 2명
 
 ## 기술스택
-![](https://user-images.githubusercontent.com/64197543/172637144-49cc3288-9881-4dd6-80f6-fe3ae8c8c97f.png)
+<img src="https://user-images.githubusercontent.com/64197543/172637144-49cc3288-9881-4dd6-80f6-fe3ae8c8c97f.png" width="200" height="400"/>
