@@ -31,4 +31,4 @@
 4명
 
 ## 기술스택
-<img src="https://user-images.githubusercontent.com/64197543/172644110-a2338bf6-4b4b-45bd-a9bd-6808edad7022.png" width="600" height="300"/>
+<img src="https://user-images.githubusercontent.com/64197543/172644110-a2338bf6-4b4b-45bd-a9bd-6808edad7022.png" width="600" height="200"/>
