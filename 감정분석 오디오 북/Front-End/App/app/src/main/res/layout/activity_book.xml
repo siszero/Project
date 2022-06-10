@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookActivity">
+
+
+    //상단 바
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/app_actionbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:fontFamily="@font/acc"
+        android:theme="?attr/actionBarTheme"
+        app:title="ReadMyMind"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white"></com.google.android.material.appbar.MaterialToolbar>
+
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="500dp"
+        android:layout_height="368dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:id="@+id/bookcontent"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/acc"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        tools:textAlignment="center">
+
+        <Button
+            android:id="@+id/play"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|top"
+            android:layout_marginLeft="88dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/steelteal"
+            android:fontFamily="@font/acc"
+            android:text="재생"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:backgroundTint="@color/steelteal"
+            android:fontFamily="@font/acc"
+            android:text="정지"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/otherrecommend"
+        android:layout_width="242dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/deepviolet"
+        android:fontFamily="@font/acc"
+        android:text="다른 책을 추천해줄까요?"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="15dp"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/deepviolet"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/btm_nvi_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</LinearLayout>

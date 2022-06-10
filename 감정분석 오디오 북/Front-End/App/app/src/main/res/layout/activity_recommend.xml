@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecommendActivity">
+
+    //상단 바
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/app_actionbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:fontFamily="@font/acc"
+        android:theme="?attr/actionBarTheme"
+        app:title="ReadMyMind"
+        app:titleCentered="true"
+        app:titleTextColor="@color/white"></com.google.android.material.appbar.MaterialToolbar>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAlignedChildIndex="1"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:baselineAlignedChildIndex="1"
+            >
+
+            <ImageView
+                android:id="@+id/bookImage1"
+                android:layout_width="180dp"
+                android:layout_height="275dp"
+
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/booktitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:fontFamily="@font/acc"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:baselineAlignedChildIndex="1"
+            >
+
+            <ImageView
+                android:id="@+id/bookImage2"
+                android:layout_width="180dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/booktitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:fontFamily="@font/acc"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:baselineAlignedChildIndex="1"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:baselineAlignedChildIndex="1"
+            >
+            <ImageView
+                android:id="@+id/bookImage3"
+                android:layout_width="180dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/booktitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:fontFamily="@font/acc"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:baselineAlignedChildIndex="1"
+            >
+            <ImageView
+                android:id="@+id/bookImage4"
+                android:layout_width="180dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/booktitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:fontFamily="@font/acc"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        app:itemBackground="@color/white"
+        app:itemIconTint="@color/deepviolet"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/btm_nvi_menu"></com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>
