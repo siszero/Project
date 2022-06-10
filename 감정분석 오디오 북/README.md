@@ -15,7 +15,7 @@ AI 프로젝트 장려상(POSCO 청년 AI Big Data 아카데미)
 있으며 사용자에 맞춤형 책을 추천하고 읽어줌으로써 우울 또는 힐링을 필요로 하는 현대인들을
 위로하고자 한다.
 
-## 차별성
+## ◼ 차별성
 ✔ 아직 데이터가 적어 아직 4가지 감정만을 분류하고 있지만 STT(Speech to Text)를
 통해 간편하게 그날 그날의 감정을 간편하게 분석해 도서를 추천하며 바쁜 현대인에 맞춰 이를
 읽어준다는 것에서 의미를 갖는다.   
@@ -42,9 +42,9 @@ AI 프로젝트 장려상(POSCO 청년 AI Big Data 아카데미)
 ## ◼ 시스템 구성도
 ![](https://user-images.githubusercontent.com/64197543/173026988-cf6a3c53-d125-4aa9-be6c-bfa2b91c4b38.JPG)
 
+
 ## ◼ 기술스택
 <img src="https://user-images.githubusercontent.com/64197543/173026299-c55ff20b-9df1-47fa-bc17-cec08ead4366.png" width="600" height="250"/>
-
 
 
 ## ◼ 참고 자료
