@@ -40,4 +40,4 @@ Java의 Swing 라이브러리를 사용해서 마우스, 키보드를 사용한 
 4명
 
 ## 기술스택
-<img src="https://user-images.githubusercontent.com/64197543/173025017-58fac704-64eb-4dc9-9e1a-f93232d7f304.png" width="600" height="250"/>
+<img src="https://user-images.githubusercontent.com/64197543/173025017-58fac704-64eb-4dc9-9e1a-f93232d7f304.png" width="400" height="250"/>
